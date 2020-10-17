@@ -92,7 +92,6 @@ jQuery(document).ready(function($) {
     else var str = $(this).serialize();
     $.ajax({
       type: "POST",
-      url: "https://formspree.io/f/maylqrvb",
       data: str,
       success: function(msg) {
         // alert(msg);
